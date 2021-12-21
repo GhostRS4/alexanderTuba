@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander Tuba</title>
+    <meta name="description" content="Biografía sobre Alexander Tuba">
+
+    <!-- Prefetch -->
+    <link rel="prefetch" href="biografia.html" as="document">
+
+    <!-- Preload -->
+    
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"  crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Alexander<span class="logo__bold">Buele</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="biografia.html" class="navegacion__enlace">Biografía</a>
+                    <a href="proyectos.html" class="navegacion__enlace">Proyectos</a>
+                    <a href="mensaje.html" class="navegacion__enlace">Mensaje</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Alexander Buele</h2>
+            <p class="no-margin">Conoce sobre mi vida y proyectos más importantes, probablemente encuentres algo interesante</p>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="resumen">
+            <h3>Sobre Mí</h3>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy"  srcset="img/biografia.webp" type="image/webp">
+                        <img loading="lazy" src="img/biografia.jpg" alt="Imagen de mi rostro completo"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Biografía</h4>
+                    <p>Nací un 24 de Septiembre del 2000 en Cumbe, Ecuador. Mi afición por los ordenadores y la política nació a una edad temprana por influencia familiar. Actualmente soy estudiante de Ingeniería en Telecomunicaciones y programador en Python. </p>
+                    <a href="biografía.html" class="boton boton--primario">Más sobre Mí </a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy"  srcset="img/proyectos.webp" type="image/webp">
+                        <img loading="lazy" src="img/proyectos.jpeg" alt="Computadora con codigo en pantalla"> 
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Mis Proyectos </h4>
+                    <p>A lo largo de mi trabajo como programador he desarrollado y colaborado con distintos proyectos en el área de desarrollo web y análisis de datos, conoce los más destacables.  </p>
+                    <a href="proyectos.html" class="boton boton--primario">Mis Proyectos</a>
+                </div>
+            </article>
+
+            
+        </main>
+        <aside class="sidebar">
+            <h3>Desarrollado Por</h3>
+
+            <ul class="informacion_desarrollo no-padding">
+                <li class="widget-informacion_desarrollo">
+                    <h4 class="no-margin">Marco Alexander Tuba</h4>
+                    <p class="widget-informacion_desarrollo__label">Carrera: 
+                        <span class="widget-informacion_desarrollo__info">Ingeniería en Telecomunicaciones</span>
+                    </p>
+                    <p class="widget-informacion_desarrollo__label">Materia: 
+                        <span class="widget-informacion_desarrollo__info">Introducción a la Ingeniería</span>
+                    </p>
+                    <a href="entrada.html" class="boton boton--secundario">Sobre este proyecto </a>
+                </li>
+
+                <li class="widget-informacion_desarrollo">
+                    <h4 class="no-margin">Tecnología Utilizada</h4>
+                    <p class="widget-informacion_desarrollo__label">Lenguajes de Maquetado: 
+                        <span class="widget-informacion_desarrollo__info">HTML</span>
+                    </p>
+                    <p class="widget-informacion_desarrollo__label">Lenguajes de Estilo: 
+                        <span class="widget-informacion_desarrollo__info">CSS</span>
+                    </p>
+                    <a href="entrada.html" class="boton boton--secundario">Sobre este proyecto</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+   
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Alexander <span class="logo__bold">Tuba</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Biografía</a>
+                    <a href="cursos.html" class="navegacion__enlace">Proyectos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
